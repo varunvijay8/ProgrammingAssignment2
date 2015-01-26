@@ -40,6 +40,8 @@ cacheSolve <- function(x, ...) {
     library("MASS")
   }  
   
+  library("MASS")
+  
   invMx <- x$getInv()
   
   if(!is.null(invMx)) {
